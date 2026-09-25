@@ -56,16 +56,23 @@ repository above.
 
 ### Copilot CLI
 
-Install the source repository with the Copilot CLI:
+The repository is a root plugin, so it can be installed directly:
 
 ```powershell
 copilot plugin install https://github.com/vikrampatel5/copilot-plugins
 ```
 
-For a local checkout, use the repository path instead:
+For a local checkout, use the repository root:
 
 ```powershell
-copilot plugin install .
+copilot plugin install "C:\Users\vikra\IdeaProjects\github-copilot-sample-plugin"
+```
+
+The same checkout can also be registered as a marketplace:
+
+```powershell
+copilot plugin marketplace add "C:\Users\vikra\IdeaProjects\github-copilot-sample-plugin"
+copilot plugin install repo-health@vikram-copilot-plugins
 ```
 
 ## Adding future plugins

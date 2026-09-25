@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "repo-health",
-      "source": "./plugins/repo-health",
+      "source": ".",
       "description": "A GitHub Copilot plugin that reviews repository health and reports actionable findings.",
       "version": "1.0.0",
       "author": {
