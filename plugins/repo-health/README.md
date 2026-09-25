@@ -37,9 +37,11 @@ The plugin path is:
 plugins/repo-health
 ```
 
-In JetBrains IDEs, open **GitHub Copilot → Agent Customizations → Plugins** and
-choose **Install Plugin from Source**. The same marketplace structure is
-available in VS Code under **GitHub Copilot → Agent Plugins** and in Copilot CLI.
+In JetBrains IDEs, open **Settings | Tools | AI Assistant | Skills**, select
+**Skills Settings → Manage External Registries**, and add the repository URL.
+Install `repo-health` from the discovered skills list at the IDE or Project
+scope. The marketplace structure is also available in clients that support
+Agent Plugin marketplaces.
 
 ## Usage
 

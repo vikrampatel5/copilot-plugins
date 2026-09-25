@@ -36,12 +36,18 @@ installation, and usage.
 
 ### JetBrains IDE
 
-In **GitHub Copilot → Agent Customizations → Plugins**, choose **Install Plugin
-from Source** and select or enter this repository:
+JetBrains AI Assistant currently consumes the skill in this repository through
+an external skill registry. In **Settings | Tools | AI Assistant | Skills**,
+open **Skills Settings → Manage External Registries**, add this repository, and
+then install the `repo-health` skill from the list:
 
 ```text
 https://github.com/vikrampatel5/copilot-plugins
 ```
+
+Choose the IDE or Project installation scope as appropriate. Do not use
+**Install Plugin from Source** in the JetBrains GitHub Copilot plugin; that
+route does not load this marketplace manifest.
 
 ### VS Code
 
