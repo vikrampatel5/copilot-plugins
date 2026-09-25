@@ -1,12 +1,13 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "repo-health",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A GitHub Copilot plugin that reviews repository health and reports actionable findings.",
   "author": {
-    "name": "Vikram Patel"
+    "name": "Vikram Patel",
+    "url": "https://github.com/vikrampatel5"
   },
-  "homepage": "https://github.com/vikrampatel5/copilot-plugins",
+  "homepage": "https://github.com/vikrampatel5/copilot-plugins/tree/main/plugins/repo-health",
   "repository": "https://github.com/vikrampatel5/copilot-plugins",
   "license": "MIT",
   "keywords": [
@@ -14,5 +15,8 @@
     "code-health",
     "quality",
     "developer-tools"
+  ],
+  "skills": [
+    "skills/"
   ]
 }

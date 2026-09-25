@@ -1,0 +1,31 @@
+{
+  "name": "vikram-copilot-plugins",
+  "metadata": {
+    "description": "GitHub Copilot plugins by Vikram Patel",
+    "version": "1.0.0"
+  },
+  "owner": {
+    "name": "Vikram Patel"
+  },
+  "plugins": [
+    {
+      "name": "repo-health",
+      "source": "./plugins/repo-health",
+      "description": "A GitHub Copilot plugin that reviews repository health and reports actionable findings.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Vikram Patel",
+        "url": "https://github.com/vikrampatel5"
+      },
+      "homepage": "https://github.com/vikrampatel5/copilot-plugins/tree/main/plugins/repo-health",
+      "repository": "https://github.com/vikrampatel5/copilot-plugins",
+      "keywords": [
+        "repository",
+        "code-health",
+        "quality",
+        "developer-tools"
+      ],
+      "license": "MIT"
+    }
+  ]
+}
