@@ -7,7 +7,7 @@
     "name": "Vikram Patel",
     "url": "https://github.com/vikrampatel5"
   },
-  "homepage": "https://github.com/vikrampatel5/copilot-plugins/tree/main/plugins/repo-health",
+  "homepage": "https://github.com/vikrampatel5/copilot-plugins/tree/master/plugins/repo-health",
   "repository": "https://github.com/vikrampatel5/copilot-plugins",
   "license": "MIT",
   "keywords": [
@@ -15,8 +15,5 @@
     "code-health",
     "quality",
     "developer-tools"
-  ],
-  "skills": [
-    "skills/"
   ]
 }
